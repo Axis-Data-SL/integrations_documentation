@@ -72,4 +72,6 @@ Services offered under the excursion can be retrieved from the ServiceInfo node,
 
 Service codes can be found in Excursion > Common > Excursion related codes
 
-Note: all Product and service combinations may not be available, available combinations are confirmed in the Rateplan notifications
+Note: all Product and service combinations may not be available, available combinations are confirmed in the Rateplan notifications.
+
+[Go back to index](/Excursion/index.md)
