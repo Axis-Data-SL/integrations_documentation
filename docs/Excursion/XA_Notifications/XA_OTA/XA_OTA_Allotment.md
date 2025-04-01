@@ -88,3 +88,5 @@ It uses the same structure as OTA_TourActivityAvailRS but with a small subset of
     </TourActivityInfo>
 </OTA_TourActivityAvailRS>
 ```
+
+[Go back to index](../)
