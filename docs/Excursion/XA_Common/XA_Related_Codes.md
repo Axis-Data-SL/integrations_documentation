@@ -149,6 +149,7 @@ Below are listed only the most used ones for your referrence:
 
 
 
-[Go back to index](/Excursion/index.md)
+[Go back to index](../)
+
 
 
