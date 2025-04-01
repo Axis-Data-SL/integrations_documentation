@@ -106,3 +106,6 @@ Pax types the rate applies to, are expressed as age ranges. Services for specifi
     <Participant MinAge="13" MaxAge="99" MinParticipants="1" MaxParticipants="1"/>
 </Policies>
 ```
+
+
+[Go back to index](../)
