@@ -146,3 +146,9 @@ Below are listed only the most used ones for your referrence:
 | EXCURSION | Key Details | EX_OTHERD | Other: |
 | EXCURSION | Key Details | EX_PVOUCHER | Printed Voucher accepted |
 | EXCURSION | Key Details | EX_WHEELCHAIR | Wheelchair Accessible |
+
+
+
+[Go back to index](/Excursion/index.md)
+
+
