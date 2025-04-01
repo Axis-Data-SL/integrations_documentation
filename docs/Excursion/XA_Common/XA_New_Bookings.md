@@ -245,3 +245,7 @@ ID_Context        Attribute that hosts the context of the code, value its not re
             xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance xsi:type="ns1:BookingStatusType" ReservationStatusType="Reserved"/>
 </TPA_Extensions>
 ```
+
+
+
+[Go back to index](/Excursion/index.md)
