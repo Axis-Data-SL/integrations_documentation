@@ -75,29 +75,11 @@ body {
   padding: 2rem;
 }
 
-/* Code blocks */
-pre, code {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 13px;
-  background-color: #f2f2f2;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-/* Full block (fenced) */
-pre {
-  padding: 1rem;
-  overflow-x: auto;
-  white-space: pre;
-  margin: 1rem 0;
-}
-
 /* Inline code (single backtick) */
 code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 13px;
   padding: 0.2em 0.4em;
-}
-
-p code {
   background-color: #eee;
   color: #c7254e;
   border-radius: 3px;
@@ -111,13 +93,41 @@ p code {
   overflow-x: auto;
   padding: 1rem;
   margin: 1rem 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 13px;
+  line-height: 1.5;
 }
 
+/* Removes "boxed line" effect */
 .highlight pre {
   margin: 0;
   background: transparent;
   border: none;
   padding: 0;
+  white-space: pre;
+}
+
+/* Add line numbers */
+.highlight table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.highlight td {
+  vertical-align: top;
+  padding: 0;
+}
+
+.highlight .gutter {
+  width: 3em;
+  text-align: right;
+  padding-right: 1em;
+  color: #999;
+  user-select: none;
+}
+
+.highlight .code {
+  width: 100%;
 }
 
 /* Optional: tag coloring */
