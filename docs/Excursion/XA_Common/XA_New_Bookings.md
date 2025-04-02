@@ -247,5 +247,5 @@ ID_Context        Attribute that hosts the context of the code, value its not re
 ```
 
 
-[Go back to index](../)
+[Go back to index]({{ site.baseurl }}/)
 
