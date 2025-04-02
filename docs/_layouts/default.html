@@ -1,21 +1,30 @@
-<!-- _layouts/default.html -->
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <img src="{{ '/logo.png' | relative_url }}" alt="Company Logo">
+      <h1>Your Company Name</h1>
+    </div>
+  </div>
+
+  <div class="page">
     <div class="sidebar">
       <ul>
-        <li><a href="/integrations_documentation/">Home</a></li>
-        <li><a href="/integrations_documentation/excursions/common">Excursions</a></li>
+        <li><a href="{{ '/index.html' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/excursions/common.html' | relative_url }}">Excursions</a></li>
         <!-- Add more links as needed -->
       </ul>
     </div>
+
     <div class="content">
       {{ content }}
     </div>
-  </body>
+  </div>
+</body>
 </html>
