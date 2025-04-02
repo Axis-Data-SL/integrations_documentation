@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # Excursion NBC Mapping Process
 
 The Inventory mapping process requires an interactive and highly automated „matching application“ on the partner side to quickly turn-around product changes.
