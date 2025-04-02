@@ -57,7 +57,8 @@ Excursion services can be grouped into three main concepts:
 TourActivityID can be retrieved from TourActivityDescriptiveContent:
 
 ```xml
-<TourActivityDescriptiveContent TourActivityID="XAEDXB92QK" TourActivityName="Helicopter Tour Atlantis" RPH="1">```
+<TourActivityDescriptiveContent TourActivityID="XAEDXB92QK" TourActivityName="Helicopter Tour Atlantis" RPH="1">
+```
 
 Products offered under the Excursion can be retrieved from the ProductInfo node, in CategoryCodes section:
 
