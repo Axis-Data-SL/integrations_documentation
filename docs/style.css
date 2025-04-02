@@ -74,3 +74,30 @@ body {
   flex: 1;
   padding: 2rem;
 }
+
+/* Code blocks */
+pre, code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Full block (fenced) */
+pre {
+  padding: 1rem;
+  overflow-x: auto;
+  white-space: pre;
+  margin: 1rem 0;
+}
+
+/* Inline code (single backtick) */
+code {
+  padding: 0.2em 0.4em;
+}
+
+p code {
+  background-color: #eee;
+  color: #c7254e;
+  border-radius: 3px;
+}
