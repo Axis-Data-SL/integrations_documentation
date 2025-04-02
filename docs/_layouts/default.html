@@ -7,38 +7,27 @@
 </head>
 <body>
 
-  <!-- Entire page layout -->
-  <div class="layout">
-    
-    <!-- LEFT SIDE: Logo + Sidebar -->
-    <div class="left-column">
-      
-      <!-- Logo Header (above sidebar) -->
-      <div class="logo-header">
-        <img src="{{ '/axis_logo.png' | relative_url }}" alt="Company Logo">
-      </div>
+  <!-- HEADER -->
+  <div class="header">
+    <div class="logo">
+      <img src="{{ '/axis_logo.png' | relative_url }}" alt="Company Logo">
+      <h1>Axis Data | MTS Globe | OTS Globe</h1>
+    </div>
+  </div>
 
-      <!-- Sidebar -->
-      <div class="sidebar">
-        <ul>
-          <li><a href="{{ '/index.html' | relative_url }}">Home</a></li>
-          <li><a href="{{ '/excursions/common.html' | relative_url }}">Excursions</a></li>
-        </ul>
-      </div>
+  <!-- PAGE LAYOUT -->
+  <div class="page">
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+      <ul>
+        <li><a href="{{ '/index.html' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/excursions/common.html' | relative_url }}">Excursions</a></li>
+      </ul>
     </div>
 
-    <!-- RIGHT SIDE: Header + Content -->
-    <div class="right-column">
-
-      <!-- Company Header -->
-      <div class="company-header">
-        <h1>Your Company Name</h1>
-      </div>
-
-      <!-- Main Content -->
-      <div class="content">
-        {{ content }}
-      </div>
+    <!-- MAIN CONTENT -->
+    <div class="content">
+      {{ content }}
     </div>
   </div>
 
