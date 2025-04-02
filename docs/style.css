@@ -4,7 +4,7 @@ body {
   font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  background-color: #dde8f2;
+  background-color: #faf9f9;
   color: #333;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@ body {
 /* Header */
 .header {
   background-color: #d2e2f1;
-  color: #ffffff;
+  color: #000000;
   padding: 1rem 2rem;
   display: flex;
   align-items: center;
