@@ -80,5 +80,5 @@ Service codes can be found in Excursion > Common > Excursion related codes
 Note: all Product and service combinations may not be available, available combinations are confirmed in the Rateplan notifications.
 
 
-[Go back to index](../)
+[Go back to index]({{ site.baseurl }}/)
 
