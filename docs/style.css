@@ -101,3 +101,25 @@ p code {
   color: #c7254e;
   border-radius: 3px;
 }
+
+/* Rouge code block container */
+.highlight {
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow-x: auto;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.highlight pre {
+  margin: 0;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+/* Optional: tag coloring */
+.highlight .nt { color: #22863a; } /* tag name */
+.highlight .na { color: #6f42c1; } /* attribute name */
+.highlight .s  { color: #032f62; } /* strings */
