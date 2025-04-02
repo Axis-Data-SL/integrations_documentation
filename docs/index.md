@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+---
+
+
 # System_Documentation – Table of contents
 
 ## Excursion
