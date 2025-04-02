@@ -149,7 +149,7 @@ Below are listed only the most used ones for your referrence:
 
 
 
-[Go back to index](../)
+[Go back to index]({{ site.baseurl }}/)
 
 
 
