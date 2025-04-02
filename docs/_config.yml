@@ -1,19 +1,10 @@
 # _config.yml
 baseurl: "/integrations_documentation"
-highlighter: rouge
+
 markdown: kramdown
-permalink: pretty
-plugins:
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-archives
-  - jekyll-paginate-v2
-  - jekyll-sitemap
-  - jekyll-github-metadata
-  - jekyll-assets
-  - jekyll-redirect-from
-  - jekyll-archives
-  - jekyll-include-cache
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+

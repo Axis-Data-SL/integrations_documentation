@@ -56,24 +56,26 @@ Excursion services can be grouped into three main concepts:
 
 TourActivityID can be retrieved from TourActivityDescriptiveContent:
 
-```xml
-<TourActivityDescriptiveContent TourActivityID="XAEDXB92QK" TourActivityName="Helicopter Tour Atlantis" RPH="1">
-```
+<pre>```xml
+<TourActivityDescriptiveContent TourActivityID="XAEDXB92QK" TourActivityName="Helicopter Tour Atlantis" RPH="1">```</pre>
 
 Products offered under the Excursion can be retrieved from the ProductInfo node, in CategoryCodes section:
 
+<pre>
 ```xml
 <ProductInfo Code="TH000150" CodeDetail="Helicopter Tour (15 min)">
 	<DescriptiveText> Helicopter Tour (15 min)</DescriptiveText>
 </ProductInfo>
 ```
+</pre>
 
 Services offered under the excursion can be retrieved from the ServiceInfo node, in CategoryCodes section:
-```xml
+<pre>```xml
 <ServiceInfoInfo Code="TIC" CodeDetail="Ticket only">
 	<DescriptiveText>Ticket</DescriptiveText>
 </ServiceInfoInfo>
 ```
+</pre>
 
 Service codes can be found in Excursion > Common > Excursion related codes
 
