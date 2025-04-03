@@ -30,6 +30,7 @@ Location structure allows different types of location types:
 - Hotel code or GIATA code (Usable by GIATA partners only)
 - Geo Location
 - TourActivity Code
+
 ```xml
 <LocationPref Context="xxxx">
     <Region RegionCode="Country">Spain</Region>
@@ -41,7 +42,9 @@ Location structure allows different types of location types:
     <Position Latitude="12541" Longitude="25412"/>
 </LocationPref>
 ```
+
 Only one of the location types should be used for each location, it is not necessary to be the same. I.E. Source location can be a hotel code and service location can be a region. In case the location is defined per area, Country should be always provided. I.E. Country + Region, Country + Resort, etc.
+
 ```xml
 <LocationPref Context="Source">
     <Region RegionCode="HotelCode">AMTSxxxx</Region>
