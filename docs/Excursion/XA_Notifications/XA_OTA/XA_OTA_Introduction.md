@@ -67,4 +67,4 @@ Car codes per hotel can be retrieved from the services section of the OTA_HotelD
 - Hotel supplied extras are often offered as a different room code containing a compulsory extra. This is most commonly used for offers that include for example spa treatments. Disadvantage is poor visibility of room descriptions in the German market and dependency on room descriptions in the search results in other markets.
 
 
-[Go back to index](../)
+[Go back to index]({{ site.baseurl }}/)

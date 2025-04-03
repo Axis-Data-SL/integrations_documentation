@@ -89,4 +89,4 @@ It uses the same structure as OTA_TourActivityAvailRS but with a small subset of
 </OTA_TourActivityAvailRS>
 ```
 
-[Go back to index](../)
+[Go back to index]({{ site.baseurl }}/)

@@ -382,4 +382,4 @@ SupplierCode attribute holds the code of the extra. This code is used in the boo
 </Extra>
 ```
 
-[Go back to index](../)
+[Go back to index]({{ site.baseurl }}/)

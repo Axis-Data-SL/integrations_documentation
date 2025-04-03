@@ -101,11 +101,11 @@ For PerGroup based rates, MinParticipants and MaxParticipants ocupancy attribute
 For PerPax based rates, MaxParticipants and minParticipants defines the biggest group allowed in a booking.
 
 Pax types the rate applies to, are expressed as age ranges. Services for specific pax type groups (Adult excursions, etc) can be identified using the policies, I.E. rates with policies for children will not be included in the notification.
-```xml
+```xml {linenos}
 <Policies>
     <Participant MinAge="13" MaxAge="99" MinParticipants="1" MaxParticipants="1"/>
 </Policies>
 ```
 
 
-[Go back to index](../../)
+[Go back to index]({{ site.baseurl }}/)
